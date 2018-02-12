@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_ideal_proportion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/New">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/IdealProportion"
+                android:textColor="@color/colorGreen3"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/image_view_back_ideal_proportion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp" />
+
+            <ImageView
+                android:id="@+id/image_view_info_ideal_proportion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_info_outline_white_24dp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_search1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/toolbar_ideal_proportion"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/New">
+
+        <RelativeLayout
+            android:id="@+id/ekran"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/YellowDark1"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/neck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/IdealProportionNeck"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/neck_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/toolbar_body_type"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/neck"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/neck"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionChest"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/chest_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/neck"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/chest"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/biceps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chest"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionBiceps"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/biceps_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chest"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/biceps"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/talia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/biceps"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionWaist"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/talia_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/biceps"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/talia"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/wrist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/talia"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionWrist"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/wrist_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/talia"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/wrist"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/bedro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrist"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionHip"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/bedro_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrist"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/bedro"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ikri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bedro"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/IdealProportionShin"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ikri_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bedro"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ikri"
+            android:textColor="@color/colorGreen1"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/bodybuilder"
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bodytypearnold9"/>
+
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/circumference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/ekran"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/wristcircumference"
+            android:textColor="@color/colorGreen3"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText_ideal_proportion"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_below="@id/ekran"
+            android:textColor="@color/colorGreen1"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="70dp"
+            android:textColorHint="@color/primary_dark"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/circumference"
+            android:background="@drawable/bg_search3"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/button_rezult_body_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText_ideal_proportion"
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/result"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

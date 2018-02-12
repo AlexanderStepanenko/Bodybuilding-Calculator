@@ -1,0 +1,378 @@
+<resources>
+
+    <string name="app_name">Калькулятор Бодибилдера</string>
+    <string name="bodyType">Идеальные пропорции для натурального атлета</string>
+    <string name="body_type">Тип телосложения</string>
+    <string name="day_calories">Суточная калорийность</string>
+    <string name="ideal_proportion">Идеальные пропорции</string>
+    <string name="weight_in_caloriescalculation">Вес</string>
+    <string name="height_in_caloriescalculation">Рост</string>
+    <string name="age_for_caloriescalculation">Возраст</string>
+    <string name="ideal_proportion_description_chest">Грудь:</string>
+    <string name="ideal_proportion_description_basin">Таз:</string>
+    <string name="ideal_proportion_description_waist">Талия:</string>
+    <string name="ideal_proportion_description_hip">Бедро:</string>
+    <string name="ideal_proportion_description_neck">Шея:</string>
+    <string name="ideal_proportion_description_biceps">Бицепс:</string>
+    <string name="ideal_proportion_description_shin">Голень:</string>
+    <string name="ideal_proportion_description_wrist">Предплечье:</string>
+    <string name="button_in_caloriescalculation">=</string>
+    <string name="rezult_in_caloriescalculation">=</string>
+    <string name="circumference_volume">Запястье (см):</string>
+    <string name="wristcircumference">Обхват запястья</string>
+    <string-array name="lifestyle">
+        <item>Сидячий образ жизни</item>
+        <item>Спорт 1-3 дня в неделю</item>
+        <item>Спорт 3-5 дней в неделю</item>
+        <item>Спорт 6-7 дней в неделю</item>
+        <item>Очень высокая активность</item>
+    </string-array>
+    <string-array name="target">
+        <item>похудение</item>
+        <item>набор</item>
+    </string-array>
+    <string-array name="sex">
+        <item>мужской</item>
+        <item>женский</item>
+    </string-array>
+    <string name="action_setttings">Settings:</string>
+    <string name="action_units">Единицы измерения</string>
+    <string name="action_disable_advertising">Отключить рекламу</string>
+    <string name="action_give_feedback">Оставить отзыв</string>
+    <string name="action_version">Версия</string>
+    <string name="idealProportion_textView">Ваши пропорции:</string>
+    <string name="ektomorph_textView">Эктоморф</string>
+    <string name="ektomorph_text_information">Эктоморф — типичный «худыш», будь то мужчина или женщина. Тело эктоморфа имеет легкое
+    строение с мелкими суставами и небольшой мышечной массой, длинными конечностями, вытянутыми
+    мышцами и узкими плечами. Чаще всего вес эктоморфов в норме или ниже нормы.\n \nТакой тип
+    телосложения наименее подвержен набору веса благодаря чуть более высокому базовому обмену
+    веществ, гормональному статусу и повышенной повседневной активности.\n \n
+        Занимаясь бодибилдингом, эктоморф должен уделять минимум внимания аэробным тренировкам,
+        а всю программу тренировок строить на тяжелых базовых упражнениях, в виде сплита. Быстрый
+        обмен веществ, происходящий в них, зачастую затрудняет процесс наращивания веса в том случае,
+        если следовать более традиционным диетическим программам. Диета эктоморфа должна состоять из
+        высококалорийной пищи, богатой белками и углеводами. Эктоморф может придерживаться менее строгих
+        правил в питании, по сравнению с другими типами телосложения, так как его метаболизм не склонен
+        к липосинтезу. Таким образом, для эктоморфа более важно количество съеденного, нежели состав
+        продуктов.
+        +\n \nЭктоморфы тяжело
+    набирают вес. Тренировки для этого типа должны быть короткими и интенсивными с фокусом на
+    основных группах мышц.</string>
+    <string name="сharacteristics_of_the_ectomorph">Характеристики:</string>
+    <string name="ekto_characteristics">- «Хрупкое» строение.\n- Плоская грудь.\n- Узкие плечи.\n- Небольшая мышечная масса.\n- Повышенный базовый обмен веществ.</string>
+    <string name="mezomorph_textView">Мезоморф</string>
+    <string name="mezomorph_characteristics">- Атлетичны.\n\n- Крепкое телосложение.\n\n- Хорошо очерченный мышечный рельеф.\n\n- Легко набирает мышечную массу.\n\n- Набирает вес легче, чем эктоморф.</string>
+    <string name="mezomorphTextView">У мезоморфов крупная кость, большая мышечная масса и крепкое телосложение,
+        обычно они довольно атлетичны. Это идеальное телосложение для бодибилдинга и многих других спортивных дисциплин.
+        Людям с этим типом телосложения относительно просто набрать и сбросить массу.\n\nЭтот типаж лучше всего реагирует на
+        силовые тренировки, поэтому увеличение мышечной массы у них происходит довольно быстро, особенно у новичков.
+        Обратная сторона медали заключается в том, что жировая масса набирается с аналогичной легкостью.\n\n
+    Если вы мезоморф и ваша цель — убрать не только жировую прослойку, но и объемы, стоит сфокусироваться на питании
+        и кардионагрузках. Когда лишний жир ушел, можно добавить силовые тренировки на проблемные зоны.\n\n</string>
+    <string name="endomorph_text_view">Эндоморф</string>
+    <string name="endomorph_characteristics">- Мягкое тело с округлыми формами.\n- Легко набирает жировую и мышечную массу.\n- Низкий рост.\n- Тяжело сбрасывает вес.\n- Плохо выраженная мускулатура.</string>
+    <string name="endomorphTextView">Эндоморфы чаще других типов имеют лишний вес, даже потребляя при этом меньше
+        калорий.\n\nЭндоморф нуждается в относительно небольшом количестве углеводов, гораздо лучше его организм воспримет
+        энергию из жиров. При составлении рациона делайте ставку на пониженное количество углеводов и повышенное содержание
+        жиров.\n\nЧтобы свести набор жировой прослойки к минимуму, тренировки обязательно должны включать в себя кардионагрузки
+        наравне с силовыми упражнениями.\n\nЭндоморфы, как правило, обладают мягкими гармоничными очертаниями фигуры, женщины
+        от природы наделены прекрасными формами. Приобретя устойчивые привычки здорового питания и физической активности, люди
+        этого типажа без большого труда могут поддерживать стабильный вес и стройность.</string>
+    <string name="Sex1">Пол:</string>
+    <string name="targetEditText">Цель:</string>
+    <string name="navigation_drawer_opens">Text</string>
+    <string name="navigation_drawer_closes" />
+    <string name="trainingForEkto">
+       Вы имеете преимущество в наборе качественной мышечной массы (без жировых отложений). Но для
+        достижения этой цели потребуется много усилий! Многие эктоморфы отметили, что их тела лучше
+        всего реагируют на довольно тяжелые веса и более медленный темп тренировки с более
+        длительными периодами отдыха между тренировками. Если целью является увеличение веса, не
+        тренируйтесь ежедневно или слишком долго на тренировочной сессии, потому что вы в конечном
+        итоге сжигаете много драгоценных калорий.\n\nУпотребляйте качественные продукты, и будьте
+        готовы много есть, если хотите набрать мышцы.  Не бойтесь углеводов и не уходите из-за стола
+        голодными.
+
+    </string>
+
+    <string name="trainingForEkto2">- Эктоморфы нередко тренируются в достаточно быстром темпе. Обычно их результаты
+        как в восстановлении, так и в силе улучшаются, если темп тренировки понизить. Интенсивная тренировка - стимул,
+        который обеспечивает рост мышц. Интенсивность можно повысить разными путями; два наилучших - это упражнения
+        с меньшим весом и укороченным отдыхом между подходами и упражнения с большим весом и долгим отдыхом между подходами.
+        Поскольку тренировки с высокой интенсивностью необходимы, чтобы заставить мышцы эктоморфа расти, упор нужно
+        сделать на второй вариант: работать с большими весами и долго (3-7 мин) отдыхать между подходами для того, чтобы
+        обеспечить хорошее восстановление мышц для дальнейшей интенсивной работы.\n \n - Эктоморфы должны давать своему
+        организму достаточный отдых между тренировками. Абсолютный минимум продолжительности отдыха для эктоморфа - 48
+        часов между тренировками. И никогда не нужно тренировать мышечную группу, если она не полностью восстановилась
+        после предыдущей тренировки. При использовании многоповторного тренинга следует увеличить продолжительность отдыха
+        между тренировками, если мышцы не восстановились.\n \n - Из-за высокой скорости метаболических реакций эктоморфы
+        должны спать не менее 8-10 часов в сутки. Полезен дневной сон в течение 1-2 часов.\n \n - Для стимуляции восстановления
+        можно проводить занятия во время отдыха, продолжительностью 5-15 минут с интенсивностью и весами не более 20 процентов
+        (желательно меньше). Если восстановление происходит достаточно быстро, то рекомендуется отказаться от этого метода,
+        иначе можно сбить восстановление.</string>
+    <string name="mezoTrainingString">Тренировки для мезоморфа</string>
+
+    <string name="weight_maxWeight">Вес</string>
+    <string name="reps_maxWeight">Повторения</string>
+    <string name="gymnastic_maxWeight">Упражнение</string>
+    <string name="max_weight_dialog_information_string">   Данный калькулятор поможет выяснить,
+        какой вес вы сможете поднять в одном повторении в таких упражнениях как приседания со штангой
+        на плечах, жим штанги лёжа и становая тяга.\n\n
+        Калькулятор оценивает ваш максимум в один раз, исходя из того веса, который вы можете
+        поднимать, и количества чистых повторений, которые вы можете достичь до
+        мышечного отказа.\n\n
+        Диапазон допустимых повторений 1-10!\n\n Имейте в виду, что это только оценки. Чем меньше ваш
+        показатель, тем более точной будет оценка вашего повторного максимума. Указание веса, который вы
+        можете сделать для 3 повторений, даст вам более точное число, чем для 10 повторений.\n\n
+        </string>
+    <string name="optimal_pulse_information_string">Метод определения границ частоты сердцебиений
+        используется для определения оптимального диапазона (целевой зоны) частоты пульса во время
+        занятий спортом.\n\n
+        Границы диапазона находятся приблизительно между значением пульса в спокойном
+        состоянии и в состоянии максимальной частоты сердечных сокращений.\n\n
+        Целевая зона сердцебиений находится в пределах от 50  до 95 процентов от значения максимальной
+        частоты сердечных сокращений и выбирается в зависимости от индивидуальных различий физического
+        состояния человека.
+</string>
+    <string name="height_settings">Рост</string>
+    <string name="weight_settings">Вес</string>
+
+    <string-array name="spinner_gymnastic">
+        <item>Приседания</item>
+        <item>Жим лежа</item>
+        <item>Становая тяга</item>
+    </string-array>
+    <string-array name="spinner_unit_height">
+        <item>кг</item>
+        <item>фунт</item>
+    </string-array>
+    <string-array name="spinner_unit_weight">
+        <item>см</item>
+        <item>дюйм</item>
+    </string-array>
+
+    <string name="ok">OK</string>
+    <string name="mezomorph_training">
+           Люди мезоморфного типа телосложения – в некотором роде везунчики. Они обладают достаточно
+        широкой костью, что дает визуальную массивность. Также обмен веществ у них весьма быстр,
+        благодаря чему не накапливается излишки ненужной жировой ткани.\n\n
+
+       Чередуйте занятия в тренажерном зале с тренировками по кроссфиту, если
+        хотите максимально функционально развиваться по всем параметрам. Также можно делать
+        отдельные микроциклы тренировок, направленные на улучшение глубины и жесткости мускулатуры
+        (используем такие методы, как работа с паузами в нижней точке, максимально сильное сжатие
+        мышцы в точке пикового сокращения, медленное прохождение негативной фазы движения и т.д.).
+
+       </string>
+    <string name="appbar">appbar</string>
+    <string name="eatingMezo">Питание</string>
+    <string name="eatingMezoString">Мезоморф растет гораздо лучше, если получает достаточное количество
+        протеина, как минимум 2 грамма на килограмм веса в день, и держит уровень потребления углеводов
+        достаточно высоким. Интересная особенность диеты мезоморфа заключается в том, что она может поставлять
+        больше 20 процентов калорий из жиров, и это помогает ему набирать массу и силу.\n\nОбычно мезоморф увеличивает
+        свои силовые и объемные показатели и при этом сохраняет вес тела почти неизменным, если следит за
+        тем, чтобы прирост мышечной массы был постепенным. Следует помнить, что качественная мышечная
+        масса набирается гораздо легче, если уровень жировых отложений держится ниже 16 процентов для мужчин
+        и 22 для женщин.</string>
+    <string name="title_activity_endomorph_training_scrolling">Эндоморф</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mezomorph_training_scrolling">Мезоморф</string>
+    <string name="title_activity_ectomorph_training_scrolling">Эктоморф</string>
+    <string name="title_activity_ectomorph_woman_body_type_scrolling">
+        Эктоморф
+    </string>
+
+    <string name="title_activity_mezomorph_woman_body_type_scrolling">
+        Мезоморф</string>
+
+    <string name="title_activity_endomorph_woman_body_type_scrolling">
+        Эндоморф
+    </string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_training_programms">TrainingProgramms</string>
+    <string name="title_activity_start">Pumping Iron</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_calculator_botton">CalculatorBottonActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_new_calculator">NewCalculatorActivity</string>
+    <string name="title_activity_body_type">BodyTypeActivity</string>
+    <string name="btn_calories1">Суточная\nкалорийность</string>
+    <string name="btn_caclulator_body_type">Тип\nтелосложения</string>
+    <string name="btn_calculator_max_weight">Одноповторный\nмаксимум</string>
+    <string name="btn_calculator_ideal_proportion">Идеальные\nпропорции</string>
+    <string name="btn_optimal_pulse">Оптимальный\nпульс</string>
+    <string name="body_type_information_dialog">
+       Тип телосложения, с которым вы родились, может оказать большое
+        влияние на эффективность ваших тренировок.\n\n
+        У всех нас разные типы телосложения. Некоторые из нас тощие, некоторые плотные. Толщина и
+        структура костей также различаются, как и наши характеристики, такие
+        как длина наших мышечных брюшек и скорость метаболизма. Когда дело доходит до улучшения
+        вашего тела, то чем лучше вы понимаете свое конкретное сочетание генетических признаков, тем
+        больше у вас шансов построить телосложение своей мечты.\n\n
+        В 1940-х годах психолог У.Г. Шелдон разработал систему, которая разделяла людей на три
+        основных типа телосложения.
+
+
+    </string>
+    <string name="_30">30 минутная\nтренировка для женщин</string>
+    <string name="rosomaha_bench_press">ЖИМ ШТАНГИ ЛЁЖА:\n- 4 подхода по 5 повторений.\n- отдых между
+        подходами 2.5 минуты.</string>
+    <string name="rosomaha_bench_squats">ПРИСЕДАНИЯ СО ШТАНГОЙ:\n- 4 подхода по 5 повторений.\n- отдых между
+        подходами 2.5 минуты.</string>
+    <string name="rosomaha_zhim_stoya">ЖИМ ГАНТЕЛЕЙ СТОЯ:\n- 4 подхода по 10 повторений.\n- отдых между подходами 1 минута.</string>
+    <string name="rosomaha_front_prised">ФРОНТАЛЬНЫЕ ПРИСЕДАНИЯ СО ШТАНГОЙ:\n- 4 подхода по 10 повторений.\n- отдых между подходами 1 минута.</string>
+    <string name="rosomaha_zhim_shtangi_sidya">ЖИМ ШТАНГИ ИЗ-ЗА ГОЛОВЫ СИДЯ:\n- 4 подхода по 10
+        повторений.\n- отдых между подходами 1 минута.</string>
+    <string name="rosomaha_zhim_nogami">ЖИМ НОГАМИ:\n- 4 подхода по 10
+        повторений.\n- отдых между подходами 1 минута.</string>
+    <string name="tricepsss">ТРИЦЕПС.\nСУПЕРСЕТ:  2 упражнения выполняются без задержки между ними.</string>
+    <string name="otshimaniya_na_brusiah">ОТЖИМАНИЯ НА БРУСЬЯХ УЗКИМ ХВАТОМ:\n- 3 подхода по 10
+        повторений;\n- отдых 15 секунд.</string>
+    <string name="tric">ЖИМ К НИЗУ В БЛОКЕ ТРЕНАЖЁРА:\n- 3 подхода по 12 повторений;\n- отдых 60 секунд.</string>
+    <string name="superseriya_rossomaha">Подходы выполняются по кругу, выполняя упражнения одно
+        вслед за другим без отдыха. Всего нужно выполнить 4 круга. Отдых между круговыми подходами 60 секунд.</string>
+    <string name="mahi_v_storoni">МАХИ С ГАНТЕЛЯМИ СТОЯ ЧЕРЕЗ СТОРОНЫ:\n- 8 повторений.</string>
+    <string name="mahi_pered_soboi">МАХИ С ГАНТЕЛЯМИ СТОЯ ПЕРЕД СОБОЙ:\n - 8 повторений.</string>
+    <string name="mahi_v_naklone">РАЗВЕДЕНИЕ ГАНТЕЛЕЙ В НАКЛОНЕ:\n- 8 повторений.</string>
+    <string name="zhim_schtangi_stoya">ЖИМ ШТАНГИ СТОЯ:\n- 8 повторений.</string>
+    <string name="title_activity_ronnie_coleman_training">RonnieColemanTraining</string>
+    <string name="calories_coleman">Калории: 5562\nБелки: 546 г.\nЖиры: 150 г.\nУглеводы: 474 г.</string>
+    <string name="coleman_1030">10:30\nКРУПА С СЫРОМ 3/4 ЧАШКИ.\nЯИЧНЫЕ БЕЛКИ 2 ЧАШКИ.\nКОФЕ 1 ЧАШКА.</string>
+    <string name="coleman_1230">12:30\nПОРЦИЯ СЫВОРОТОЧНОГО ПРОТЕИНА ПЕРЕД ТРЕНИРОВКОЙ.\n
+    ПОРЦИЯ СЫВОРОТОЧНОГО ПРОТЕИНА ПОСЛЕ ТРЕНИРОВКИ.\nL-АРГАНИН 3-5 Г.</string>
+    <string name="coleman_16">16:00\nКУРИЦА 28 УНЦИЙ.\nКРАСНАЯ ФАСОЛЬ 1/2 ЧАШКИ.\nКОРИЧНЕВЫЙ РИС
+        1/2 ЧАШКИ.\nКУКУРУЗНЫЙ ХЛЕБ 2 КУСКА</string>
+    <string name="coleman19">19:00\nПЕЧЕНЫЙ КАРТОФЕЛЬ 1 СРЕДНИЙ.\nКУРИЦА 28 УНЦИЙ.</string>
+    <string name="coleman22">22:00\nПЕЧЕНЫЙ КАРТОФЕЛЬ 1 СРЕДНИЙ.\nКУРИЦА 28 УНЦИЙ.\n
+    ЛИМОНАДА 8 УНЦИЙ.\nКАРТОФЕЛЬ ФРИ 1 ПОРЦИЯ.\nФИЛЕ МИНЬОН 9 УНЦИЙ.</string>
+    <string name="ronnie_00">00:00 СЫВОРОТОЧНЫЙ ПРОТЕИН 1 ПОРЦИЯ</string>
+    <string name="ronnie01">01:30 СЫВОРОТОЧНЫЙ ПРОТЕИН 1 ПОРЦИЯ</string>
+    <string name="title_activity_coleman_programm_training">Программа Ронни Колемана</string>
+    <string name="coleman_prised">1.ПРИСЕДАНИЯ СО ШТАНГОЙ НА ПЛЕЧАХ:\n- 3 подхода по 10 - 15 повторений.</string>
+    <string name="coleman_gak_prised">2.ПРИСЕДАНИЯ ГАККЕНШМИДТА:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="coleman_razgib_nog">3.РАЗГИБАНИЯ НОГ В ТРЕНАЖЁРЕ:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="coleman_sgib_nog">4.СГИБАНИЯ НОГ СТОЯ В ТРЕНАЖЁРЕ:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="coleman_sgib_nog_lezha">5.СГИБАНИЯ НОГ ЛЁЖА В ТРЕНАЖЁРЕ:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="coleman_sgib_nog_sidya">6.СГИБАНИЯ НОГ СИДЯ В ТРЕНАЖЁРЕ:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="coleman_ikri_sidya">7.ПОДЪЁМЫ НА НОСКИ СИДЯ В ТРЕНАЖЁРЕ:\n- 3 подхода по 15 - 20 повторений.</string>
+    <string name="ronnie_coleman">RONNIE COLEMAN\n(5 дневный сплит)</string>
+    <string name="dwane_johnson">Dwane Johnson\n(6 дневный сплит)</string>
+    <string name="chest">ГРУДЬ.\nПервый подход - 60 процентов от одноповторного максимума, второй - 65,
+        третий и четвёртый - 75 процентов.</string>
+    <string name="rossomaha_legs">НОГИ.\nПервый подход - 60 процентов от одноповторного максимума, второй - 65,
+        третий и четвёртый - 75 процентов.</string>
+    <string name="shoulders_rossomaha">ПЛЕЧИ.\n2 жимовых упражнения.</string>
+    <string name="hugh_jackman_programm">HUGH JACKMAN\n(4 недельный цикл)</string>
+    <string name="hugh_jackman_one_week_day_one">ДЕНЬ 1: Грудь. Трицепс. Плечи</string>
+    <string name="arnold_schwarcenegger_7">Arnold Schwarcenegger\n(7 дневный сплит)</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Calculater">Калькулятор</string>
+    <string name="IdealProportion">Идеальные пропорции</string>
+    <string name="IdealProportionException">Ошибка! Введите объем запястья.</string>
+    <string name="IdealProportionNeck">1. Шея:</string>
+    <string name="IdealProportionChest">2. Грудь:</string>
+    <string name="IdealProportionBiceps">3. Бицепс:</string>
+    <string name="IdealProportionWaist">4. Талия:</string>
+    <string name="IdealProportionWrist">5. Предплечье:</string>
+    <string name="IdealProportionHip">6. Бедро:</string>
+    <string name="IdealProportionShin">7. Голень:</string>
+    <string name="CalculationCaloriesException">Ошибка! Введите данные.</string>
+
+
+    <string name="Caloricalls">Суточная калорийность</string>
+    <string name="body_types">Тип телосложения</string>
+    <string name="max_reep">Одноповторный максимум</string>
+    <string name="error_body_type">Ошибка! Введите объем запястья.</string>
+    <string name="zamer">Замер запястья проводите с расслабленной рукой, в самом тонком месте (над выпирающей косточкой).</string>
+    <string name="error_max_weight">Ошибка! Заполните поля ввода данных.</string>
+    <string name="app_info">О приложении</string>
+    <string name="max_weight_opis">Калькулятор расчитывает ваш максимум в одном повторении, исходя из количества веса,
+        который вы можете поднимать в подходе, и количества чистых повторений, которых вы можете достичь до мышечного отказа. \n\n
+       </string>
+    <string name="calories_dialog_info">Не каждый нуждается в 2000 калорий в сутки. Ваши потребности
+        индивидуальны и определяются согласно типу телосложения и образу жизни. Используйте этот
+        калькулятор, чтобы узнать, сколько калорий вам действительно нужно.</string>
+    <string name="References">1.MD Mifflin, ST St Jeor, et al. A new predictive equation for resting
+        energy expenditure in healthy individuals. J Am Diet Assoc 2005:51:241-247\n\n
+    2.Frankenfield DC, et al. Comparison of Predictive Equations for Resting Metabolic Rate in
+        Healthy Nonobese and Obese Adults: A Systematic Review. J Am Diet Assoc. 2005;105:775-789.\n\n
+    3.Frankenfield DC, et al. The Harris-Benedict studies of human basal metabolism: history and limitations.
+J Am Diet Assoc. 1998;98:439-445.\n\n
+    4.Brzycki, Matt (1998). A Practical Approach To Strength Training. McGraw-Hill. ISBN 1-57028-018-5.\n\n
+    5.Epley, Boyd (1985). Boyd Epley Workout. Lincoln, NE: Body Enterprises p.86.\n\n
+    6.Landers, J (1984). Maximum based on reps NSCA 6(6).\n\n
+    7.Cameron Chumlea W., Wisemandle W., Guo S.S., Siervogel R.M., "Relations Between Frame Size and
+        Body Composition and Bone Mineral Status", American Journal of Clinical Nutrition, no. 75,
+        pp. 1012-16, 2002.\n\n
+    8.Glauber H., Vollmer W., Nevitt M., Ensrud K., Orwoll E., "Body Weight versus Body Fat
+        Distribution, Adiposity, and Frame Size as Predictors of Bone Density", Journal of Clinical
+        Endocrinology and Metabolism, no. 80, pp. 1118-23, 1995.\n\n
+    9.Willoughby, D.P., Weaver G., The Complete Guide to Muscular Measurements, Montreal: Weider Publications Company, 1947.\n\n
+        10.Kouri E.M., Pope H.G. Jr., Katz D.L., Oliva P., "Fat-free mass index in users and
+        nonusers of anabolic-androgenic steroids", Clinical Journal of Sport Medicine, vol.
+        5, no. 4, pp. 223-8, 1995.\n\n
+        11.MedlinePlus Medical Encyclopedia: Testosterone. (2006). Retrieved 14 Feb. 2008, from the
+        National Library of Medicine - National Institutes of Health Website:
+        http://www.nlm.nih.gov/medlineplus/ency/article/003707.htm.\n\n
+        12.Vermeulen, A., Kaufman J.M., "Diagnosis of hypogonadism in the aging male", Aging Male,
+        vol. 5, pp. 170-176, 2002.\n\n
+        13.Kondo M., Abe T., Ikegawa S., Kawakami Y., Fukunaga T., "Upper limit of fat-free mass in
+        humans: A study on Japanese Sumo wrestlers", American Journal of Human Biology, vol. 6,
+        no. 5, pp. 613-18, 1994.\n\n
+        14.McCallum, John. "Your Measurements", Strength and Health, November 1964.\n\n
+
+
+
+
+
+
+</string>
+    <string name="ссс">Суточная калорийность:</string>
+    <string name="Proteins">\nБелки:</string>
+    <string name="Fats">\nЖиры:</string>
+    <string name="Carbohydrates">\n\nУглеводы:</string>
+    <string name="Mez">Мезоморф</string>
+    <string name="ektone">- Узкие бедра и ключицы.</string>
+    <string name="ectotwo">- Тонкие суставы (запястье/лодыжки).</string>
+    <string name="ectothree">- Тонкие кости.</string>
+    <string name="ectofour">- Длинные и тонкие мышцы.</string>
+    <string name="ectofive">- Длинные конечности.</string>
+    <string name="mezoone">- Широкие плечи и грудная клетка.</string>
+    <string name="mezotwoo">- Узкая талия.</string>
+    <string name="mezothree">- Мускулистые руки и ноги.</string>
+    <string name="mezofour">- Низкий процент подкожного жира.</string>
+    <string name="Ennndo">Эндоморф</string>
+    <string name="endotraining">Положительное качество этого типа телосложения - крупный, широкий
+        костяк. Набор мышечной массы идет довольно легко, но избавиться от лишних жировых отложений
+        становится крайне сложно. Тренируйтесь с умеренными весами, с высокой интенсивностью и
+        минимальным отдыхом между подходами. Хорошо, если тренировки эндоморфа будут более частыми
+        и длительными, в некоторых случаях до 2 часов. Цель такого режима занятий - "разогнать"
+        метаболизм, заставить жир "гореть" и выявить в конце концов определенный рельеф и форму мышц.
+        \n\nВ диете нужно снизить количество простых углеводов или вообще исключить их,
+потреблять больше белка и питаться не реже 6 раз в сутки.
+
+</string>
+    <string name="endoone">- Крупный, широкий костяк.</string>
+    <string name="endotwoo">- Более короткие конечности.</string>
+    <string name="endothree">- Избыточное жироотложение на бедрах.</string>
+    <string name="endofour">- Покатые плечи.</string>
+    <string name="string_dialog_bodytype">Узнайте, как тренироваться для вашего типа тела и каковы различия.\n\n
+        Зная, какой из трех основных типов тела, к которым вы ближе всего, поможет вам лучше
+        адаптировать свой план диеты и физических упражнений для удовлетворения ваших потребностей
+        и установить реалистичные, достижимые цели, которые проложат путь к вашему успеху.</string>
+    <string name="string_ideal_proportion">Этот калькулятор поможет вычислить ваши идеальные мышечные
+        пропорции согласно индивидуальных особенностей вашего организма. Вычисления проводятся на
+        основе таблицы врача Дэвида Уилби, в которой приведены ориентиры развития мускулатуры
+        "мужчинам с физическим потенциалом среднего уровня".\n\n Все исходные сведения для данной
+        таблицы собраны, основываясь на данные измерений окружностей тела около трех тысяч
+        атлетов-любителей.
+        </string>
+    <string name="eccc">Эктоморф</string>
+    <string name="result">Результат</string>
+
+</resources>

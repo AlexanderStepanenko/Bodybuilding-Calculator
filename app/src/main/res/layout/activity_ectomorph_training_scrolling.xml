@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:fitsSystemWindows="true"
+    tools:context="bodybuildingcalculator.bodybuildingcalculator.MezomorphTrainingScrolling">
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_ectoman_training"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/New"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="@string/eccc"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/image_view_back_ectomorph_training"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp"
+                android:layout_alignParentLeft="true"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ImageView
+        android:id="@+id/imageecto"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/toolbar_ectoman_training"
+        android:background="@drawable/ectoman1"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/imageecto"
+        android:layout_below="@id/toolbar_ectoman_training"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/ektone"/>
+
+    <TextView
+        android:id="@+id/ttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/imageecto"
+        android:layout_below="@id/tone"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/ectotwo"/>
+
+    <TextView
+        android:id="@+id/tthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/imageecto"
+        android:layout_below="@id/ttwo"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/ectothree"/>
+
+    <TextView
+        android:id="@+id/tfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/imageecto"
+        android:layout_below="@id/tthree"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/ectofour"/>
+
+
+    <TextView
+        android:id="@+id/tfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/imageecto"
+        android:layout_below="@id/tfour"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/ectofive"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageecto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_marginBottom="20dp"
+                android:textSize="12sp"
+                android:text="@string/trainingForEkto"/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

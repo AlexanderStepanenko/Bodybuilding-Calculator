@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#121111</color>
+    <color name="colorPrimaryDark">#121111</color>
+    <color name="colorAccent">#121111</color>
+
+
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorYellow">#1eceb9</color>
+    <color name="colorGray">#150125</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray1">#3b4143</color>
+    <color name="colorGreen1">#00c0c1</color>
+    <color name="colorGreen2">#706f6f</color>
+    <color name="colorGreen3">#b4b5b7</color>
+    <color name="bgmaxPulse">#2ac921</color>
+    <color name="maxPulse">#401013</color>
+    <color name="hardPulse">#5c1d1f</color>
+    <color name="averagePulse">#04ed9f</color>
+    <color name="lightPulse">#893235</color>
+    <color name="button_dialog">#251818</color>
+
+    <color name="primaryq">#1d1c1c</color>
+    <color name="primary_darkq">#202020</color>
+
+
+
+
+    <color name="Blue">#060606</color>
+    <color name="Blue1">#1b1b1b</color>
+
+    <color name="New">#262d37</color>
+
+
+
+    <color name="womenEktoBackground">#ffddf2</color>
+
+    <color name="womenEktoText">#757575</color>
+
+    <color name="LightBlue">#c4e4ff</color>
+
+
+
+
+    <color name="YellowDark">#434445</color>
+    <color name="YellowDark1">#313d4d</color>
+
+
+
+    <color name="primary">#e6e7e7</color>
+
+
+    <color name="primary_dark">#f2f2f2</color>
+
+
+    <color name="primary_light">#C8E6C9</color>
+
+
+    <color name="accent">#ffff04</color>
+
+
+    <color name="primary_text">#212121</color>
+
+
+    <color name="mainColor">#ff5d5d60</color>
+
+
+    <color name="icons">#a8bf42</color>
+
+
+    <color name="divider">#6bc0df</color>
+</resources>

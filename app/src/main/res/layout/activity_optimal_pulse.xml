@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_body_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/New"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Оптимальный пульс"
+                android:textColor="@color/colorGreen2"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/image_view_back_optimal_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp" />
+
+            <ImageView
+                android:id="@+id/image_view_info_optimal_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_info_outline_white_24dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/max_pulse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/toolbar_body_type"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_dialogs_windows">
+
+        <TextView
+            android:id="@+id/text_view_maxPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Максимальный"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/resultMaxPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/text_view_maxPulse">
+
+            <TextView
+                android:id="@+id/text_view_max_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorGreen3"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="30dp"
+                android:text="Предельное развитие силы и скорости"
+                android:textAlignment="center"
+
+
+                android:textSize="12sp"
+
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hard_pulse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/max_pulse"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_optimal_pulse_hard">
+
+        <TextView
+            android:id="@+id/text_view_maxPulse3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Тяжелый"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/resultHardPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text_view_maxPulse3">
+
+            <TextView
+                android:id="@+id/text_view_max_pulse3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:text="Рост мышечной массы и силы"
+                android:textAlignment="center"
+
+
+                android:textSize="12sp"
+
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/average_pulse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/hard_pulse"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_optimal_pulse_average">
+
+        <TextView
+            android:id="@+id/text_view_maxPulse4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Средний"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/resultAveragePulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text_view_maxPulse4">
+
+            <TextView
+                android:id="@+id/text_view_max_pulse4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="Развитие аэробных способностей, рост ударного объёма сердца"
+                android:textAlignment="center"
+
+
+                android:textSize="12sp"
+
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/light_pulse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/average_pulse"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_optimal_light_pulse">
+
+        <TextView
+            android:id="@+id/text_view_maxPulse5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:text="Лёгкий"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/resultLightPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text_view_maxPulse5">
+
+            <TextView
+                android:id="@+id/text_view_max_pulse5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:text="Рост общей выносливости, сжигание жира"
+                android:textAlignment="center"
+
+
+                android:textSize="12sp"
+
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/light_pulsess"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/light_pulse"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_optimal_very_light_pulse">
+
+        <TextView
+            android:id="@+id/text_view_maxPulse6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:text="Очень лёгкий"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/resultVeryLightPulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text_view_maxPulse6">
+
+            <TextView
+                android:id="@+id/text_view_max_pulse2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:text="Разминка, зарядка, восстановление"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/optimalPulse_textView_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/light_pulsess"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Возраст"
+        android:textColor="@color/colorGreen2"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/optimalPulse_editText_age"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/light_pulsess"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_search3"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/optimalPulse_button_rezult"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/optimalPulse_editText_age"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_buttonresult"
+        android:text="@string/button_in_caloriescalculation"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>

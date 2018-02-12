@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_body_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/New"
+        app:popupTheme="@style/AppTheme">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/body_types"
+                android:textColor="@color/colorGreen3"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/image_view_back_body_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp" />
+
+            <ImageView
+                android:id="@+id/image_view_info_body_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_info_outline_white_24dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:background="@color/New"
+        android:layout_height="300dp">
+
+        <RelativeLayout
+            android:id="@+id/rukarel"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/YellowDark1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ruka"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/braslet8" />
+
+
+        </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/circumference_volume"
+        android:layout_below="@id/rukarel"
+        android:textColor="@color/colorGreen3"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/rukarel"
+        android:background="@drawable/bg_search3"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite" />
+
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="10dp"
+    android:layout_alignParentLeft="true"
+        android:entries="@array/sex"
+        android:gravity="center"
+        android:textAlignment="center"
+      />
+
+    <Button
+        android:id="@+id/button_rezult_body_type1"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/result"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

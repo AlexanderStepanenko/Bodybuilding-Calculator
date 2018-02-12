@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "225906904391",
+    "firebase_url": "https://bodybuilding-calculator-3cfaa.firebaseio.com",
+    "project_id": "bodybuilding-calculator-3cfaa",
+    "storage_bucket": "bodybuilding-calculator-3cfaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225906904391:android:5e662fe55de2d10e",
+        "android_client_info": {
+          "package_name": "bodybuildingcalculator.bodybuildingcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225906904391-ca2mag27nq4ep8hcihetggso5hi9c2mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_1bwx-60TBjj47leIYzaBtoX_OYJpycs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

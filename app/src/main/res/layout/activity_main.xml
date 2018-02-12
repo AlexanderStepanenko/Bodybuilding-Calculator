@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/New"
+      >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Bodybuilding Calculator"
+                android:textColor="@color/colorGreen3"
+                android:textSize="16sp"
+                android:textStyle="" />
+
+            <ImageView
+                android:id="@+id/image_view_back_calculator_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+               />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/layout_button_calories_calculation"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/toolbar_activity_main"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp">
+
+
+        <ImageButton
+            android:id="@+id/button_calories_calculation"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bn_calculator"
+            android:gravity="center"
+            android:src="@drawable/banana70" />
+
+
+        <TextView
+            android:id="@+id/btn_calories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/button_calories_calculation"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/btn_calories1"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen3"
+
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_button_body_type"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar_activity_main"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp">
+
+
+        <ImageButton
+            android:id="@+id/button_max_weight"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bn_calculator"
+            android:src="@drawable/weightblue" />
+
+
+        <TextView
+            android:id="@+id/maxreep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/button_max_weight"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_calculator_max_weight"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen3"
+            android:textSize="11sp" />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_button_max_weight"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_button_calories_calculation"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp">
+
+
+        <ImageButton
+            android:id="@+id/button_body_type"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bn_calculator"
+            android:gravity="center"
+            android:src="@drawable/bt1"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_bodytype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/button_body_type"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_caclulator_body_type"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen3"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout_ideal_proportion"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_button_body_type"
+        android:layout_marginTop="70dp">
+
+
+        <ImageButton
+            android:id="@+id/button_ideal_proportion"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bn_calculator"
+            android:gravity="center"
+            android:src="@drawable/zamerblue1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_ideal_proportion"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/btn_calculator_ideal_proportion"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen3"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

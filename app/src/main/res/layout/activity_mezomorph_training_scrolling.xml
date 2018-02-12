@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:fitsSystemWindows="true"
+    tools:context="bodybuildingcalculator.bodybuildingcalculator.MezomorphTrainingScrolling">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_mezomorph_training"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/New">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/Mez"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/image_view_back_mezomorph_training"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/toolbar_mezomorph_training"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_mezomorph_training"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true">
+
+
+        <ImageView
+            android:id="@+id/image_mezo"
+            android:layout_width="85dp"
+            android:layout_height="160dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/malemezo1" />
+
+
+
+
+        <TextView
+            android:id="@+id/tone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_toRightOf="@id/image_mezo"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/mezoone"/>
+
+        <TextView
+            android:id="@+id/ttwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_toRightOf="@id/image_mezo"
+            android:layout_below="@id/tone"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/mezotwoo"/>
+
+        <TextView
+            android:id="@+id/tthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_toRightOf="@id/image_mezo"
+            android:layout_below="@id/ttwo"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/mezothree"/>
+
+        <TextView
+            android:id="@+id/tfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_toRightOf="@id/image_mezo"
+            android:layout_below="@id/tthree"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/mezofour"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_mezo"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/mezomorph_training"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

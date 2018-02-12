@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170284315630",
+    "firebase_url": "https://bodybuildingcalculator3.firebaseio.com",
+    "project_id": "bodybuildingcalculator3",
+    "storage_bucket": "bodybuildingcalculator3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170284315630:android:5e662fe55de2d10e",
+        "android_client_info": {
+          "package_name": "bodybuildingcalculator.bodybuildingcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170284315630-drgpr3gcqskija9ejplg89lmppimet8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bodybuildingcalculator.bodybuildingcalculator",
+            "certificate_hash": "b9a0960299355dafabf719989444adfa50ac49c0"
+          }
+        },
+        {
+          "client_id": "170284315630-o7ajmdn5ghkvn43030iuelnmnisbsam2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs12Amk_1-HSk_eAkSVmVK4hpX2LV40_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170284315630-o7ajmdn5ghkvn43030iuelnmnisbsam2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

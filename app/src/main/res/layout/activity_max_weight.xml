@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_max_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/New"
+      >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/max_reep"
+                android:textColor="@color/colorGreen3"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/image_view_back_max_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_arrow_back_white_24dp" />
+
+
+            <ImageView
+                android:id="@+id/image_view_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_info_outline_white_24dp" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@id/toolbar_max_weight"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/New"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/coleman_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_search">
+
+
+        <EditText
+            android:id="@+id/coleman_phraze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_search"
+            android:editable="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_max_weight_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/coleman_layout"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_maxWeight_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:text="@string/weight_maxWeight"
+            android:textColor="@color/colorGreen3"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText_maxWeight_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="180dp"
+            android:background="@drawable/bg_search3"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen1"
+            android:textColorHint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_max_weight_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/layout_max_weight_one"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_maxWeight_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/reps_maxWeight"
+            android:textColor="@color/colorGreen3"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText_maxWeight_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="180dp"
+            android:background="@drawable/bg_search3"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen1"
+            android:textColorHint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_max_weight_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/layout_max_weight_two"
+        android:layout_marginTop="0dp">
+
+
+        <Button
+            android:id="@+id/button_maxWeight_result"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/spinner_maxWeight_gymnastic"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/roundedbutton"
+            android:foregroundGravity="right"
+            android:text="@string/result"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/spinner_maxWeight_gymnastic"
+            style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorGreen2"
+            android:scrollbarSize="14sp"
+
+            android:layout_centerInParent="true"
+            android:entries="@array/spinner_gymnastic"
+            android:gravity="center"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_maxWeight_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorGreen2"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
